@@ -33,6 +33,8 @@ public class Pokemon {
     }
 
     public void attack(Pokemon enemy) {
-        enemy.takeAttack(combatPower);
+        if (this != enemy); {
+            enemy.takeAttack(combatPower);
+        }
     }
 }
