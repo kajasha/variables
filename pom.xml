@@ -3,7 +3,7 @@
 <groupId>it.morfoza</groupId>
 <artifactId>java101</artifactId>
 <version>1.0.0</version>
-</project>
+
 
 <build>
 <plugins>
@@ -45,3 +45,4 @@
 </plugins>
 
 </build>
+    </project>
