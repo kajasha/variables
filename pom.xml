@@ -27,7 +27,7 @@
             <descriptorRefs>
                 <descriptorRef>jar-with-dependencies</descriptorRef>
             </descriptorRefs>
-            <finalName>java101</finalName>
+            <finalName>pokemon</finalName>
             <appendAssemblyId>false</appendAssemblyId>
             <archive>
                 <manifest>
