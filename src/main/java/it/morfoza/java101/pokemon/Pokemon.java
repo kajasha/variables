@@ -2,11 +2,37 @@ package it.morfoza.java101.pokemon;
 
 
 public class Pokemon {
-    public static void main(String[] args) {
-        Pokemon pokemon = new Pokemon();
+    private String name;
+    private long health = 1000;
+    private long combatPower;
 
-        String pokemonDescription = pokemon.toString();
+    public Pokemon(String name, long combatPower) {
+        this.name = name;
+        this.combatPower = combatPower;
+    }
 
-        System.out.println(pokemonDescription);
+    public Pokemon(String name) {
+        this.name = name;
+    }
+
+    public String toString() {
+        return "Pokemon: " + name + " health : " + health;
+
+    }
+
+    public void takeAttack(long attackStrength) {
+        health -= attackStrength;
+    }
+
+    public boolean isAllive() {
+        if (health < 0) {
+            return false;
+        } else {
+            return true;
+        }
+    }
+
+    public void attack(Pokemon enemy) {
+        enemy.takeAttack(combatPower);
     }
 }
