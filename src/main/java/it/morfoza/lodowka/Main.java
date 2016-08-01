@@ -1,4 +1,4 @@
-package it.morfoza.java101.lodowka;
+package it.morfoza.lodowka;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,6 +1,4 @@
-package it.morfoza.java101.lodowka;
-
-import java.util.List;
+package it.morfoza.lodowka;
 
 public class Jedzenie {
 
